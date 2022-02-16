@@ -1,0 +1,30 @@
+
+Rotate the middle brick counter-clockwise.
+Rotate the outer bricks clockwise.
+
+Create the player using images (1-16) for Idle, (17-32) for Walk , 
+and (193-205) for Fly from moustacheMan.png.
+Allow the player to idle and walk both to the left and right.
+When the player is walking, the player can fly by selecting the space bar.
+The player can continue to fly in the direction it is moving by selecting 
+the space bar while flying.  The player should go back to idle when it hits
+the ground.
+
+Use item_tube.png for the cannon and cannonball.png for the cannonballs.
+Cannonballs should be instantiated and randomly shot every 2.0 to 5.0 seconds
+out of the cannon.  It should appear that the cannonballs are shot out of the
+cannon.  Cannonballs should be shot with a force to the right and use Unity physics 
+to bounce off the stationary bricks.  Cannonballs are allowed to go through
+the rotating bricks.  Cannonballs should be destroyed after 3 seconds.
+
+If the player collides with the rotating bricks or a cannonball, 
+the player should go back to the starting point.
+
+A win box should be added on the left side.  The goal is for the player to 
+walk/fly to get to the win box.  When the player gets to the win box, the 
+cannon should be removed.  It should be fairly easy for the player to get
+to the win box.
+
+When you build your executable, select Player Settings...  and find
+Resolution and Presentation in lower right and choose Windowed and
+Resizable Window.
